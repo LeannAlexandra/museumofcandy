@@ -14,6 +14,7 @@ body {
     /* font-weight: 400; */
 }
 
+
 #mainNavbar .navbar-brand {
     color: var(--clr-accent);
     font-size: 2rem;
@@ -22,6 +23,7 @@ body {
 #mainNavbar .nav-link {
     color: var(--clr-secondary);
     padding: 0 4vw;
+    text-align: end;
 }
 
 #mainNavbar .nav-link:hover {
