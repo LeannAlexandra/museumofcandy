@@ -6,6 +6,27 @@
     --clr-accent: #ea1c2c;
 }
 
+/* ///////////////////////////////////////////TRACKBAR ON THE Y AXIS////////////////////// */
+::-webkit-scrollbar {
+    width: 0px;
+    /* transition: 200ms; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--clr-primary);
+    border-radius: 30px;
+    /* width: 20px; */
+    max-height: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--clr-accent);
+
+}
+
+
 body {
     background-color: var(--clr-light);
     color: var(--clr-secondary);
